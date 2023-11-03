@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "meal_app",
+  "description": "API TO FETCH DIFFERENT TYPE OF MEAL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orizee01/meal_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orizee01/meal_app/issues"
+  },
+  "homepage": "https://github.com/orizee01/meal_app#readme"
+}
