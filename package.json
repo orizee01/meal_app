@@ -1,4 +1,27 @@
 {
+  
+  "name": "meal_app",
+  "description": "API TO FETCH DIFFERENT TYPE OF MEAL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run  && babel-node index.js",
+    "build": "babel index.js -d dist"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orizee01/meal_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orizee01/meal_app/issues"
+  },
+
   "dependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.20.5",
@@ -8,29 +31,9 @@
     "express": "^4.18.2",
     "winston": "^3.11.0"
   },
-  "name": "meal_app",
-  "description": "API TO FETCH DIFFERENT TYPE OF MEAL",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+
   "devDependencies": {
-    "@babel/node": "^7.22.19",
     "eslint": "^8.52.0"
-  },
-  "scripts": {
-    "start": "npm run  && babel-node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/orizee01/meal_app.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/orizee01/meal_app/issues"
   },
   "homepage": "https://github.com/orizee01/meal_app#readme"
 }
