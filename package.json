@@ -1,6 +1,12 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "express": "^4.18.2",
+    "winston": "^3.11.0"
   },
   "name": "meal_app",
   "description": "API TO FETCH DIFFERENT TYPE OF MEAL",
@@ -10,9 +16,11 @@
     "test": "test"
   },
   "devDependencies": {
+    "@babel/node": "^7.22.19",
     "eslint": "^8.52.0"
   },
   "scripts": {
+    "start": "npm run  && babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
