@@ -13,7 +13,7 @@
   },
 
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/orizee01/meal_app.git"
   },
   "author": "",
