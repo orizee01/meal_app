@@ -1,38 +1,82 @@
 {
   
   "name": "meal_app",
+  
   "description": "API TO FETCH DIFFERENT TYPE OF MEAL",
+  
   "version": "1.0.0",
+  
   "main": "index.js",
+  
   "directories": {
-    "test": "test"
+  
+    
+  "test": "test"
+  
   },
+  
   "scripts": {
-    "start": "npm run  && babel-node index.js",
-    "build": "babel index.js -d dist"
+  
+    
+  "start": "npm run  && babel-node index.js",
+  
+    
+  "build": "babel index.js -d dist"
+  
   },
-
+  
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/orizee01/meal_app.git"
+  
+    
+  "type": "git",
+  
+    
+  "url": "git+https://github.com/orizee01/meal_app.git"
+  
   },
+  
   "author": "",
+  
   "license": "ISC",
+  
   "bugs": {
-    "url": "https://github.com/orizee01/meal_app/issues"
+  
+    
+  "url": "https://github.com/orizee01/meal_app/issues"
+  
   },
-
+  
   "dependencies": {
-    "@babel/cli": "^7.23.0",
-    "@babel/core": "^7.20.5",
-    "@babel/preset-env": "^7.20.2",
-    "@babel/register": "^7.18.9",
-    "express": "^4.18.2",
-    "winston": "^3.11.0"
+  
+    
+  "@babel/cli": "^7.23.0",
+  
+    
+  "@babel/core": "^7.23.3",
+  
+    
+  "@babel/node": "^7.22.19",
+  
+    
+  "@babel/preset-env": "^7.23.3",
+  
+    
+  "@babel/register": "^7.22.15",
+  
+    
+  "express": "^4.18.2",
+  
+    
+  "winston": "^3.11.0"
+  
   },
-
+  
   "devDependencies": {
-    "eslint": "^8.52.0"
+  
+    
+  "eslint": "^8.52.0"
+  
   },
+  
   "homepage": "https://github.com/orizee01/meal_app#readme"
 }
