@@ -1,5 +1,0 @@
-.env
-node_modules/
-.nyc_output/
-html*
-.server.log/
